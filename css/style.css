@@ -419,7 +419,8 @@ nav .button {
 
   .two-col .image-container {
     margin-top: 0;
-    height: auto;
+    /* height: auto; */
+    height: 100%;
     max-height: 400px;
   }
 
