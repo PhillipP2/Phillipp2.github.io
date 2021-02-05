@@ -1,0 +1,23 @@
+.ico {
+  display: inline-block;
+  width: 78px;
+  height: 72px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.i-rock {
+  background-image: url(../icon/rock.svg);
+}
+
+.i-hat {
+  background-image: url(../icon/hat.svg);
+}
+
+.i-truck {
+  background-image: url(../icon/truck.svg);
+}
+
+.i-bag {
+  background-image: url(../icon/bag.svg);
+}
