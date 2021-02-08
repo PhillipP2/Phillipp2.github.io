@@ -97,6 +97,11 @@ nav a {
   color: #d1cbcb;
 }
 
+nav a:hover {
+  transition: color 0.2s ease-out;
+  color: #fff;
+}
+
 nav a.selected {
   font-weight: 700;
   color: #fff;
@@ -338,11 +343,11 @@ nav .button {
   }
 
   .hero-container--haul {
-    background-image: url(../img/haul-hero-l.png);
+    background-image: url(../img2/haul-hero-l.jpg);
   }
 
   .hero-container--maintenance {
-    background-image: url(../img/maintenance-truck.png);
+    background-image: url(../img2/maintenance-truck.jpg);
   }
 
   .hero-container::after {
