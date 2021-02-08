@@ -233,6 +233,22 @@ nav .button {
   color: #000;
 }
 
+.overlay a {
+  color: #000;
+}
+
+.overlay a:focus {
+  color: #000;
+}
+
+.overlay a:active {
+  color: #000;
+}
+
+.overlay a:focus {
+  color: #000;
+}
+
 .overlay .call {
   display: inline-block;
   cursor: pointer;
@@ -265,9 +281,6 @@ nav .button {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* -moz-column-gap: 12px;
-  column-gap: 12px;
-  row-gap: 36px; */
 }
 
 .card {
