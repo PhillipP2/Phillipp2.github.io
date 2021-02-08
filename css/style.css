@@ -225,7 +225,8 @@ nav .button {
   font-weight: bold;
 }
 
-.overlay button {
+.overlay .call {
+  display: inline-block;
   cursor: pointer;
   background-color: var(--main-bg-color);
   color: #fff;
