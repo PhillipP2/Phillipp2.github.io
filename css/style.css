@@ -2,7 +2,7 @@
 
 :root {
   --main-bg-color: #e31414;
-  --secondary-bg-color: #392828;
+  --secondary-bg-color: #000;
   --global-padding: 24px;
   --global-padding-m: 34px;
 }
@@ -16,6 +16,14 @@ body {
   margin: 0;
   color: #fff;
   overflow-x: hidden;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 a {
@@ -170,6 +178,7 @@ nav .button {
 
 .overlay {
   width: 100%;
+  max-width: 720px;
   text-align: center;
   background-color: #fff;
   transition: transform 0.8s ease-out;
@@ -294,13 +303,59 @@ nav .button {
   padding-bottom: 36px;
 }
 
+footer {
+  padding-top: 1.625em;
+  padding-bottom: 1.6225em;
+  background-color: #c4c4c4;
+}
+
+footer > * + * {
+  /* padding-bottom: 0.3125em; */
+  display: block;
+  padding-top: 0.4em;
+}
+
+footer .logo img {
+  padding-bottom: 0;
+}
+
+.facebook img {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links > * + * {
+  margin-left: 1em;
+}
+
+.footer-links a {
+  color: #000;
+}
+
+.footer-links li {
+  text-align: center;
+}
+
+.footer-links li:first-of-type {
+  max-width: 7ch;
+}
+
+.footer-links li:nth-of-type(2) {
+  max-width: 9ch;
+}
+
+.footer-links li:nth-of-type(3) {
+  max-width: 6ch;
+}
+
 @media only screen and (min-width: 700px) {
   .spacer {
     padding: var(--global-padding-m);
-  }
-
-  .secondary-bg-color {
-    background-color: #000;
   }
 
   .flex-right {
