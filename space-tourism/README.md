@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://phillipp2.github.io/space_tourism)
+- Live Site URL: [Add live site URL here](https://phillipp2.github.io/space-tourism)
 
 ## My process
 
