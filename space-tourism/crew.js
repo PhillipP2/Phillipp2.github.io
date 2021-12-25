@@ -20,7 +20,6 @@ dotSlider.addEventListener('click', evt => {
   if (!evt.target.matches('.dot-slider > button')) {
     return;
   }
-  evt.target.ariaSelected = 'true';
   updateSlider(dotSlider, evt.target);
   renderCrew(evt.target.dataset.position);
 
