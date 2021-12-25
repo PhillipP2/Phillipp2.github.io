@@ -1,6 +1,6 @@
 # Frontend Mentor - Space tourism website solution
 
-This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 I built this project while referencing Srimba's tutorial (https://scrimba.com/learn/spacetravel).
 
-In particular, I learned how to use ARIA attibutes to improve user accessibility, how to overlap HTML elements to create compelx layouts with css grid, and how to support responsive images using the picture element. 
+In particular, I learned how to use ARIA attributes to improve user accessibility, how to overlap HTML elements to create compelx layouts with css grid, and how to support responsive images using the picture element.
 
 My biggest takeaway from this project is learning to build a css design system that promotes reusable code.
 
@@ -57,4 +57,4 @@ My biggest takeaway from this project is learning to build a css design system t
 
 ## Acknowledgments
 
- Thank you Frontendmentor, Srimba, and Kevin Powell for making this challenge freely available and providing resources to guide students through this project.
+Thank you Frontendmentor, Srimba, and Kevin Powell for making this challenge freely available and providing resources to guide students through this project.
