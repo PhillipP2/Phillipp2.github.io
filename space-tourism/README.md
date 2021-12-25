@@ -11,7 +11,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -31,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://phillipp2.github.io/space-tourism)
+- Live Site URL: [https://phillipp2.github.io/space-tourism](https://phillipp2.github.io/space-tourism)
 
 ## My process
 
