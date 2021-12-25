@@ -1,0 +1,38 @@
+.home {
+  background-image: url(../assets/home/background-home-mobile.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.home main {
+  margin-top: 6rem;
+}
+
+.home .btn-large {
+  justify-self: center;
+  align-self: flex-end;
+  margin-top: 5rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  .home {
+    background-image: url(../assets/home/background-home-tablet.jpg);
+    background-position: center;
+  }
+
+  .home main {
+    margin-top: clamp(6rem, 16vh, 20rem);
+  }
+}
+
+@media only screen and (min-width: 65rem) {
+  .home {
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-position: unset;
+  }
+
+  .home .btn-large {
+    justify-self: flex-end;
+    margin-top: 0;
+  }
+}

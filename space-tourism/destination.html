@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/destination.css">
+  <title>Destination</title>
+</head>
+<body class="bg-dark destination">
+  <header class="navbar">
+    <a class="logo" href="index.html"><img src="./assets/shared/logo.svg" alt="logo"></a>
+    <hr>
+    <nav id="primary-nav" class="nav glass-filter">
+      <ul>
+        <li><a class="hover-effect" href="index.html"><span class="numbered-title" aria-hidden="true">00</span> Home</a></li>
+        <li><a class="hover-effect" aria-selected="true" href="destination.html"><span class="numbered-title" aria-hidden="true">01</span> Destination</a></li>
+        <li><a class="hover-effect" href="crew.html"><span class="numbered-title" aria-hidden="true">02</span> Crew</a></li>
+        <li><a class="hover-effect" href="technology.html"><span class="numbered-title" aria-hidden="true">03</span> Technology</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger btn" aria-controls="primary-nav" aria-expanded="false"><img src="./assets/shared/icon-hamburger.svg" alt="hamburger"><span class="sr-only">Menu</span></button>
+  </header>
+
+  <main class="container flow-content">
+    <h1 class="page-title text-white"><span aria-hidden="true" class="numbered-title text-gray">01</span>Pick your destination</h1>
+    <article class="even-col">
+      <picture class="destination-picture">
+        <source srcset="./assets/destination/image-moon.webp">
+        <img src="./assets/destination/image-moon.png" alt="Moon">
+      </picture>
+      <div class="main-layout flow-content">
+        <ul class="flow-row tab-list">
+          <li><button class="btn tab hover-effect" data-value="Moon" aria-selected="true">Moon</button></li>
+          <li><button class="btn tab hover-effect" data-value="Mars">Mars</button></li>
+          <li><button class="btn tab hover-effect" data-value="Europa">Europa</button></li>
+          <li><button class="btn tab hover-effect" data-value="Titan">Titan</button></li>
+        </ul>
+
+        <h2 class="destination-name">Moon</h2>
+        <p class="body">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr class="space-m">
+
+        <div class="info-list space-m">
+          <div class="info">
+            <p class="label">Avg. distance</p>
+            <p class="distance">384,400 km</p>
+          </div>
+          <div class="info">
+            <p class="label">Est. travel time</p>
+            <p class="time">3 days</p>
+          </div>
+        </div>
+
+      </div>
+    </article>
+  </main>
+  
+  <script src="script.js"></script>
+  <script src="destination.js"></script>
+</body>
+</html>

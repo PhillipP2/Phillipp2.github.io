@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/technology.css">
+</head>
+<body class="bg-dark technology">
+  <header class="navbar">
+    <a class="logo" href="index.html"><img src="./assets/shared/logo.svg" alt="logo"></a>
+    <hr>
+    <nav id="primary-nav" class="nav glass-filter">
+      <ul>
+        <li><a class="hover-effect" href="index.html"><span class="numbered-title" aria-hidden="true">00</span> Home</a></li>
+        <li><a class="hover-effect" href="destination.html"><span class="numbered-title" aria-hidden="true">01</span> Destination</a></li>
+        <li><a class="hover-effect" href="crew.html"><span class="numbered-title" aria-hidden="true">02</span> Crew</a></li>
+        <li><a class="hover-effect" aria-selected="true" href="technology.html"><span class="numbered-title" aria-hidden="true">03</span> Technology</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger btn" aria-controls="primary-nav" aria-expanded="false"><img src="./assets/shared/icon-hamburger.svg" alt="hamburger"><span class="sr-only">Menu</span></button>
+  </header>
+  <main class="main-layout tech-grid container">
+    <h1 class="page-title text-white"><span aria-hidden="true" class="numbered-title text-gray">03</span>Space launch 101</h1>
+    <div class="circle-slider flow-row">
+      <button data-position="0" aria-selected="true" class="btn">1<span class="sr-only">Launch vehicle</span></button>
+      <button data-position="1" class="btn">2<span class="sr-only">Spaceport</span></button>
+      <button data-position="2" class="btn">3<span class="sr-only">Space capsule</span></button>
+    </div>
+    <article class="content flow-content">
+      <p class="sub-heading text-sans-cond uppercase letter-spacing-600">The terminology...</p>
+      <h2 class="tech-name fs-700 space-xs">Launch vechicle</h2>
+      <p class="body">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+    </article>
+    <picture class="tech-picture">
+      <source media="(min-width: 65rem)" srcset="./assets/technology/image-launch-vehicle-portrait.jpg">
+      <img src="./assets/technology/image-launch-vehicle-landscape.jpg" alt="">
+    </picture>
+  </main>
+  <script src="script.js"></script>
+  <script src="technology.js"></script>
+</body>
+</html>
