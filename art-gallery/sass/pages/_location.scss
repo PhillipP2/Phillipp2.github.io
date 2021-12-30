@@ -1,0 +1,53 @@
+@use '../abstracts/breakpoints';
+.location {
+  h1 {
+    font-size: var(--fs-800);
+  }
+
+  h2 {
+    font-size: var(--fs-600);
+  }
+
+  .map {
+    height: 34.375rem;
+  }
+
+  .leaflet-tile-pane {
+    filter: grayscale(1) brightness(0.9);
+  }
+
+  .main-section {
+    padding-block: 3rem;
+
+    @media screen and (min-width: breakpoints.$medium) {
+      padding-block: 5rem;
+    }
+  }
+
+  .main-section__text {
+    max-width: 37ch;
+  }
+
+  .split {
+    flex-direction: column;
+    gap: 3rem;
+    @media screen and (min-width: breakpoints.$medium) {
+      flex-direction: row;
+    }
+  }
+
+  .home-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+
+    @media screen and (min-width: breakpoints.$medium) {
+      left: 3rem;
+    }
+
+    @media screen and (min-width: breakpoints.$large) {
+      left: 0;
+    }
+  }
+}

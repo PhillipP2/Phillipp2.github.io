@@ -1,0 +1,11 @@
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1.5rem);
+}
+
+.flow-row {
+  display: flex;
+
+  & > * + * {
+    margin-left: var(--flow-space, 1.5rem);
+  }
+}

@@ -1,0 +1,57 @@
+@use '../abstracts/breakpoints';
+
+.footer {
+  --mobile-spacing: 2rem;
+  padding: 3rem 0;
+
+  .container {
+    @media screen and (min-width: breakpoints.$medium) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .logo {
+    font-family: var(--text-big-shoulders);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-900);
+    line-height: 1;
+
+    @media screen and (min-width: breakpoints.$large) {
+      font-size: 2rem;
+    }
+  }
+
+  .footer__text {
+    flex-direction: column;
+    gap: var(--mobile-spacing);
+
+    @media screen and (min-width: breakpoints.$medium) {
+      flex-direction: row;
+      gap: clamp(1rem, 5vw, 5rem);
+    }
+  }
+
+  p {
+    margin: 0;
+    max-width: 36ch;
+    font-size: var(--fs-300);
+  }
+
+  .social {
+    margin: var(--mobile-spacing) 0 0 0;
+    padding: 0;
+
+    @media screen and (min-width: breakpoints.$medium) {
+      margin: 0;
+    }
+  }
+
+  @media screen and (min-width: breakpoints.$medium) {
+    padding: 3.5rem 0;
+  }
+  @media screen and (min-width: breakpoints.$large) {
+    padding: 5rem 0;
+  }
+}

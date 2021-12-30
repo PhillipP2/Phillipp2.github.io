@@ -1,0 +1,34 @@
+@use './breakpoints';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@200;300;400&display=swap');
+:root {
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-500: #444444;
+  --clr-neutral-700: #151515;
+  --clr-primary-400: #d5966c;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-800: 800;
+  --fw-900: 900;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem; /*18px*/
+  --fs-600: 2rem; /*32px*/
+  --fs-700: 3.125rem; /*50px*/
+  --fs-800: 3.125rem; /*50px*/
+  --fs-900: 3.75rem; /* 60px*/
+  --text-big-shoulders: 'Big Shoulders Display', sans-serif;
+  --text-outfit: 'Outfit', sans-serif;
+
+  @media screen and (min-width: breakpoints.$medium) {
+    --fs-800: 3.4375rem; /*55px*/
+    --fs-900: 4.375rem; /*70px*/
+  }
+
+  @media screen and (min-width: breakpoints.$large) {
+    --fs-300: 1.125rem; /*18px*/
+    --fs-400: 1.375rem; /*22px*/
+    --fs-600: 2.25rem; /*36px*/
+    --fs-700: 3.75rem; /* 60px*/
+    --fs-800: 4.375rem; /*70px*/
+    --fs-900: 6rem; /*96px*/
+  }
+}

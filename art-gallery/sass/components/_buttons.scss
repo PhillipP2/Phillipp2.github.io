@@ -1,0 +1,38 @@
+@use '../abstracts/variables';
+.btn {
+  display: inline-flex;
+  font-family: var(--text-big-shoulders);
+  font-size: 1.25rem;
+  font-weight: var(--fw-800);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.182em;
+  color: var(--clr-neutral-100);
+
+  &__text {
+    padding: 1.5rem 2rem;
+    background-color: var(--clr-neutral-700);
+    transition: background-color 0.2s ease-out;
+  }
+
+  &__arrow {
+    padding: 1.5rem;
+    background-color: var(--clr-primary-400);
+    transition: background-color 0.2s ease-out;
+  }
+
+  &--reversed {
+    flex-direction: row-reverse;
+  }
+}
+
+.btn:hover,
+.btn:focus {
+  .btn__text {
+    background-color: var(--clr-primary-400);
+  }
+
+  .btn__arrow {
+    background-color: var(--clr-neutral-700);
+  }
+}

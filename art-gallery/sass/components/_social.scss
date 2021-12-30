@@ -1,0 +1,8 @@
+.social {
+  path {
+    fill: var(--fg, var(--clr-neutral-100));
+  }
+  svg:hover path {
+    fill: var(--accent, var(--clr-primary-400));
+  }
+}
